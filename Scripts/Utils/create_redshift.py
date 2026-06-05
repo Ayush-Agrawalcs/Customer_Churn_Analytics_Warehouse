@@ -1,5 +1,5 @@
 # import boto3
-
+#import psycopg2
 # redshift = boto3.client('redshift',region_name='ap-south-1')
 
 # response = redshift.create_cluster(
