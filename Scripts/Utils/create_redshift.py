@@ -1,5 +1,5 @@
 # import boto3
-
+#import postgresql
 # redshift = boto3.client('redshift',region_name='ap-south-1')
 
 # response = redshift.create_cluster(
