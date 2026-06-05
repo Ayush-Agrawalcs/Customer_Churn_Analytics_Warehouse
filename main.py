@@ -1,6 +1,6 @@
 from Scripts.Operations.Data_analysis import Analysis_data
 
-
+# main
 def main():
     analysis = Analysis_data()
     analysis.churn_rate()
