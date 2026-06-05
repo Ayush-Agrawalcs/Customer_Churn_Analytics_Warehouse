@@ -1,6 +1,7 @@
 import psycopg2
 from connection import connection
 
+# create tables for churn data and zip code data, and also create a stage table for churn data and an analytics table for analysis
 class CreteTable:
     def create_churn_table():
         conn=connection()
