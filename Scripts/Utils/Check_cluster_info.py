@@ -2,6 +2,7 @@ import boto3
 
 client = boto3.client('redshift')
 
+# Check cluster information
 response = client.describe_clusters(
     ClusterIdentifier='redshift-cluster-1'
 )
